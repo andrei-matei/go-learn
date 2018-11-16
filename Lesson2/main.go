@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	n, err := fmt.Println("This is the true helloWorld")
+	n, err := fmt.Println("This is the true helloWorld of lesson 2")
 	fmt.Println("Number of bytes =", n)
 	fmt.Println(err)
 	foo()
@@ -17,7 +17,7 @@ func foo() {
 
 	for i := 0; i <= 10; i++ {
 		if i%2 == 0 {
-			fmt.Println(i)
+			fmt.Println("Lesson 2 ", i)
 		}
 	}
 }
